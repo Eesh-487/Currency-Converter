@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('img3.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    animation: fadein 2s;
+}
+
+header {
+    background-color: #20004d;
+    ;
+    padding: 20px;
+    color: wheat;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.external-links {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.finance-news{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 20px solid #20004d;
+    margin: 20px;
+    border-radius: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    animation: fadein 2s;
+}
+
+.currency-converter {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    animation: fadein 2s;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-width: 20px;
+    border: 20px solid #20004d;
+    margin: 20px;
+    border-radius: 500px;
+    text-decoration:dotted;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+
+            background-image: url('login.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .container {
+            width: 50%;
+            margin: 70% auto;
+            margin-top: 100px;
+
+            position: relative;
+            z-index: 1;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 40px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 40px;
+        }
+        .batman{
+            border: 2px solid green;
+            padding: 10px;
+            margin: 5px 0;
+            display: inline-block;
+            border-radius: 40px;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username" style="color: white;">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password" style="color: white;">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login">
+            <span class="batman" style="background-color: green "><a href="home.html">HOME </a></span>
+        </form>
+        <script>
+            document.getElementById('loginForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                var username = document.getElementById('username').value;
+                var password = document.getElementById('password').value;
+
+                if (username === 'EESH' && password === '01000101') {
+                    alert('Login successful. Welcome, ' + username + '!');
+                    window.location.href = 'ind2.html';
+                }
+                else if (username === 'user4' && password === 'password') {
+                    alert('Login successful. Welcome, user4!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user5' && password === 'password') {
+                    alert('Login successful. Welcome, user5!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user6' && password === 'password') {
+                    alert('Login successful. Welcome, user6!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user7' && password === 'password') {
+                    alert('Login successful. Welcome, user7!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user8' && password === 'password') {
+                    alert('Login successful. Welcome, user8!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user9' && password === 'password') {
+                    alert('Login successful. Welcome, user9!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user10' && password === 'password') {
+                    alert('Login successful. Welcome, user10!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user11' && password === 'password') {
+                    alert('Login successful. Welcome, user11!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user12' && password === 'password') {
+                    alert('Login successful. Welcome, user12!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user13' && password === 'password') {
+                    alert('Login successful. Welcome, user13!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user14' && password === 'password') {
+                    alert('Login successful. Welcome, user14!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user15' && password === 'password') {
+                    alert('Login successful. Welcome, user15!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user16' && password === 'password') {
+                    alert('Login successful. Welcome, user16!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user17' && password === 'password') {
+                    alert('Login successful. Welcome, user17!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user18' && password === 'password') {
+                    alert('Login successful. Welcome, user18!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user19' && password === 'password') {
+                    alert('Login successful. Welcome, user19!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user20' && password === 'password') {
+                    alert('Login successful. Welcome, user20!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user21' && password === 'password') {
+                    alert('Login successful. Welcome, user21!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user22' && password === 'password') {
+                    alert('Login successful. Welcome, user22!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user23' && password === 'password') {
+                    alert('Login successful. Welcome, user23!');
+                    window.location.href = 'ind2.html';
+                } else if (username === 'user24' && password === 'password') {
+                    alert('Login successful. Welcome, user24!');
+                    window.location.href = 'ind2.html';
+                } else {
+                    alert('Invalid username or password.');
+                }
+            });
+        </script>
+    </div>
+</body>
+
+</html>
